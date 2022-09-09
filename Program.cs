@@ -7,7 +7,7 @@ namespace IterateA
     {
         public int IterateAtoX(int a, int x)
         {
-            a = 0;
+            
             int asum = 0;
             for (int i = 1; i <= (x % a); i++)
             {
@@ -24,7 +24,7 @@ namespace IterateA
 
         public int IterateAplus1to2X(int a, int x)
         {
-            a = 0;
+           
             int asum = 0;
             for (int i = 1; i <= (x % (a+1)); i++)
             {
@@ -41,7 +41,7 @@ namespace IterateA
 
         public int IterateAplus2to3X(int a, int x)
         {
-            a = 0;
+            
             int asum = 0;
             for (int i = 1; i <= (x % (a + 1)); i++)
             {
